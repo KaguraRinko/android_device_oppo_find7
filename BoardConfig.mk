@@ -55,6 +55,9 @@ TARGET_LIBINIT_MSM8974_DEFINES_FILE := device/oppo/find7/init/init_find7.cpp
 # Properties
 TARGET_SYSTEM_PROP += device/oppo/find7/system.prop
 
+# Radio
+TARGET_USES_OLD_MNC_FORMAT := true
+
 # Recovery
 TARGET_RECOVERY_FSTAB := device/oppo/find7/rootdir/etc/fstab.recovery
 
