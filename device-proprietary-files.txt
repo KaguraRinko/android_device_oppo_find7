@@ -28,3 +28,9 @@ vendor/lib/libchromatix_ov5648_preview.so
 vendor/lib/libchromatix_ov5648_preview_fb.so
 vendor/lib/libchromatix_ov5648_zsl.so
 vendor/lib/libchromatix_ov5648_zsl_fb.so
+
+# NFC
+vendor/firmware/libpn547_fw.so
+vendor/lib/hw/nfc_nci.bacon.so
+vendor/lib/hw/android.hardware.nfc@1.0-impl.so
+
